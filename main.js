@@ -39,28 +39,6 @@ window.onscroll = () => {
 }
 
 
-    const slideContainer = document.querySelector('.slide-container');
-    const slides = document.querySelector('.slides');
-    const slideWidth = slideContainer.clientWidth;
-    let currentIndex = 0;
-    
-    function nextSlide() {
-      currentIndex++;
-      if (currentIndex >= slides.children.length) {
-        currentIndex = 0;
-      }
-      updateSlide();
-    }
-    
-    function updateSlide() {
-      slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-    }
-    
-    setInterval(nextSlide, 3000);
-    
-
-    
-
     var swiper = new Swiper(".review-slider", {
         loop: true,
         spaceBetween: 20,
