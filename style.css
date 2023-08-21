@@ -423,33 +423,6 @@ color: var(--black);
   .btn:hover {
     background-color: #e67e22;
   }
-  
-
-/* .products .product-slider .box:hover{
-   outline-offset: 0rem;
-   outline: var(--outline-hover)
-}
-
-.products .product-slider .box img{
-    height: 20rem;
-}
-
-.products .product-slider .box h3{
-    font-size: 2.5rem;
-    color: var(--black)
-}
-
-.products .product-slider .box .price{
-    font-size: 2rem;
-    color: var(--light-color);
-    padding: .5rem 0;
-
-}
-
-.products .product-slider .box .stars i{
-    color: var(--orange);
-    font-size: 2.2rem
-} */
 
 .categories .box-container {
     display: grid;
@@ -592,7 +565,7 @@ color: var(--black);
 
 .footer .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.5rem
 }
 
